@@ -1,0 +1,99 @@
+p{
+    color:rgb(235, 222, 215);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(71, 71, 75);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #111111;
+    padding: 0 0 30px 0;
+}
+
+header{
+    background-color: rgb(71, 71, 75);
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(71, 71, 75);
+    font-size: 20px;
+    height: 25px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+img{
+    border-radius: 5px;
+}
+
+/*IDS*/
+
+#principal{
+    background-image: url('tijolo.jpg');
+    min-height: 400px;
+    background-size: 100%;
+    padding: 0 0 0 0;
+    clear: both;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 30px;
+    float: right;
+}
+
+#menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color: rgba(20, 19, 19, 0.5)
+}
+
+#img{
+    text-align: center;
+    border-radius: 5px;
+}
+
+#contato{
+    text-align: center;
+}
+
+/*CLASS*/
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 0px 40px 0px;
+}
